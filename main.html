@@ -10,7 +10,7 @@
 			<nav>
 				<h1>SmartKaz</h1>
 				<div class="cont__nav">
-					<ul>
+					<ul class="nav__buttons">
 						<li><a href="#" id="nav__button">Info</a></li>
 						<li><a href="#" id="nav__button">Products</a></li>
 						<li><a href="#" id="nav__button">Support</a></li>
@@ -25,6 +25,12 @@
 				</div>
 			</nav>
 		</header>
+		<script>
+			document.querySelector('.burger').addEventListener('click', function () {
+				this.classList.toggle('active')
+				document.querySelector('.cont__nav').classList.toggle('active')
+			})
+		</script>
 	</body>
 	<link rel="stylesheet" href="main.css" />
 </html>
