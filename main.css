@@ -204,10 +204,10 @@ header {
 		outline: none;
 		border: none;
 	}
-	.hamburger .bar {
+	.hamburger .bar__humb {
 		transform: scale(1);
 	}
-	.hamburger .bar,
+	.hamburger .bar__humb,
 	.hamburger::after,
 	.hamburger::before {
 		content: '';
@@ -219,7 +219,7 @@ header {
 		margin: 4px 0px;
 		transition: 0.4s;
 	}
-	.hamburger.is-active .bar {
+	.hamburger.is-active .bar__humb {
 		transform: scale(0);
 	}
 	.hamburger.is-active::before {
@@ -227,7 +227,7 @@ header {
 	}
 
 	.hamburger.hamburger.is-active::after {
-		transform: rotate(45deg) translate(0, -310%);
+		transform: rotate(45deg) translate(0, -300%);
 	}
 
 	.mobile__navbar {
