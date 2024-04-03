@@ -10,8 +10,8 @@ header {
 	top: 0;
 	left: 0;
 	width: 100%;
-	padding: 25px 100px;
-	background-color: #fafafc;
+	padding: 0 40px;
+	background-color: #dddddd;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -22,8 +22,11 @@ header {
 	text-decoration: none;
 	font-weight: 650;
 	color: black;
+	background: none;
 }
-
+.navbar {
+	background: none;
+}
 .navbar a {
 	position: relative;
 	color: black;
@@ -32,6 +35,7 @@ header {
 	font-weight: 400;
 	margin-left: 15px;
 	vertical-align: middle;
+	background: none;
 }
 .navbar a:hover::before {
 	width: 100%;
@@ -57,12 +61,12 @@ header {
 	position: absolute;
 	top: 0;
 	width: 100%;
-	height: 700px;
+	height: 90%;
 	overflow: hidden;
 }
 .middle {
 	position: absolute;
-	margin: 101.2px 0 0 0;
+	margin: 37.6px 0 0 0;
 	top: 0;
 	left: 50%;
 	transform: translate(-50%, 0);
@@ -126,6 +130,9 @@ input[name='r'] {
 #r4:checked ~ .s1 {
 	margin-left: -75%;
 }
+.mobile__navbar {
+	display: none;
+}
 
 @media screen and (max-width: 1430px) {
 	header {
@@ -133,8 +140,8 @@ input[name='r'] {
 		top: 0;
 		left: 0;
 		width: 100%;
-		padding: 15px 35px;
-		background-color: #fafafc;
+		padding: 0px 15px;
+		background-color: #dddddd;
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
@@ -185,11 +192,11 @@ input[name='r'] {
 
 	.slider {
 		width: 100%;
-		height: 580px;
+		height: 90%;
 		overflow: hidden;
 	}
 	.middle {
-		margin: 65.2px 0 0 0;
+		margin: 25.6px 0 0 0;
 		position: absolute;
 		top: 0;
 		left: 50%;
@@ -343,11 +350,11 @@ input[name='r'] {
 
 	.slider {
 		width: 100%;
-		height: 580px;
+		height: 500px;
 		overflow: hidden;
 	}
 	.middle {
-		margin: 65.2px 0 0 0;
+		margin: 35.2px 0 0 0;
 		position: absolute;
 		top: 0;
 		left: 50%;
