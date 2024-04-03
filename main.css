@@ -57,7 +57,7 @@ header {
 .slider {
 	position: absolute;
 	top: 0;
-	width: 1000px;
+	width: 100%;
 	height: 700px;
 	overflow: hidden;
 }
@@ -182,12 +182,9 @@ input[name='r'] {
 	}
 
 	/* Слайдер */
-	.slider__cont {
-		width: 100%;
-		height: 580px;
-	}
+
 	.slider {
-		width: 800px;
+		width: 100%;
 		height: 580px;
 		overflow: hidden;
 	}
@@ -342,12 +339,9 @@ input[name='r'] {
 		transition: 0.4s;
 		background-color: rgb(35, 35, 35);
 	}
-	.slider__cont {
-		width: 100%;
-		height: 580px;
-	}
+
 	.slider {
-		width: 800px;
+		width: 100%;
 		height: 580px;
 		overflow: hidden;
 	}
