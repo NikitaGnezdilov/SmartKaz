@@ -86,14 +86,14 @@ header {
 }
 
 .bar {
-	width: 20px;
-	height: 8px;
+	width: 40px;
+	height: 15px;
 	margin: 8px;
 	cursor: pointer;
 	border-style: solid;
 	border-color: #fff;
 	background-color: black;
-	opacity: 0.5;
+	opacity: 0.8;
 	border-radius: 10px;
 	transition: all 0.5s ease;
 }
@@ -135,16 +135,22 @@ input[name='r'] {
 }
 
 .bestitems__cont {
+	display: flex;
+	margin: 0 15px;
 }
-
+.besti__title {
+	font-weight: 600;
+	font-size: 37px;
+	text-align: center;
+}
 .item__one,
 .item__two,
 .item__three {
+	margin: 0 auto;
 	background-color: #d0d0d0;
-	display: flex;
 	justify-content: space-between;
-	width: 400px;
-	height: 150px;
+	width: 33%;
+	height: 180px;
 }
 
 @media screen and (max-width: 1430px) {
