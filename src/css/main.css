@@ -298,47 +298,43 @@ input[name='r'] {
 }
 
 .article__info {
-	margin: 20px 0 0 0;
-	height: 1000px;
-	background-color: #e6e6e6; 
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  font-family: Arial, sans-serif;
+	margin: 20px 0;
+	background-color: #e6e6e6;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .article-title {
-  font-size: 2em;
-  color: #333;
-  text-align: center;
-  margin-bottom: 20px;
+	font-size: 2em;
+	color: #333;
+	text-align: center;
+	margin-bottom: 20px;
 }
 
 .article-subtitle {
-  font-size: 1.5em;
-  color: #555;
-  margin-top: 15px;
-  border-left: 5px solid #333;
-  padding-left: 10px;
+	font-size: 1.5em;
+	color: #555;
+	margin-top: 15px;
+	border-left: 5px solid #333;
+	padding-left: 10px;
 }
 
 .article-paragraph {
-  font-size: 1.1em;
-  color: #666;
-  line-height: 1.8;
-  margin-bottom: 15px;
-	text-align: center;
+	font-size: 1.1em;
+	color: #666;
+	line-height: 1.8;
 	margin: 0;
-	padding:
+	text-align: center;
 }
 
 .article-conclusion-title {
-  font-size: 1.6em;
-  color: #333;
-  margin-top: 25px;
-  text-align: center;
-  padding: 10px;
-  border-top: 2px solid #ccc;
+	font-size: 1.6em;
+	color: #333;
+	margin-top: 25px;
+	text-align: center;
+	padding: 10px;
+	border-top: 2px solid #ccc;
 }
 
 .footer {

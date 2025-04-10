@@ -1,0 +1,82 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Hind';
+}
+html {
+  background-color: #787878;
+}
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 0 40px;
+	background-color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	z-index: 9999;
+}
+.logo {
+	font-size: 32px;
+	text-decoration: none;
+	font-weight: 650;
+	color: black;
+	background: none;
+}
+.navbar {
+	background: none;
+}
+.navbar a {
+	position: relative;
+	color: black;
+	text-decoration: none;
+	font-size: 15px;
+	font-weight: 300;
+	margin-left: 15px;
+	vertical-align: middle;
+	background: none;
+}
+.navbar a:hover::before {
+	width: 100%;
+	font-size: 15px;
+	font-weight: 400;
+}
+
+.navbar a::before {
+	content: '';
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 0;
+	height: 2px;
+	background-color: black;
+	transition: 0.3s;
+}
+
+.cont__pay {
+	position: relative;
+	display: flex;
+	margin: 0 auto;
+	width: 900px;
+	height: 750px;
+	background-color: rgb(85, 85, 85);
+}
+
+.head__pay {
+	font-size: 70px;
+	width: 100%;
+	position: absolute;
+	right: 50%;
+	left: 50%;
+	transform: translate(-50%);
+	text-align: center;
+	align-items: center;
+}
+
+.inp_buy {
+	width: 200px;
+	position: absolute;
+}
